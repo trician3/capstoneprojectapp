@@ -84,7 +84,7 @@ $sslcert    = 'ssl/DigiCertGlobalRootCA.crt.pem';
 // Configuration for database connection
 
 # REMOTE DECLARATION
-$host       = getenv('https://capstoneprojectapp-kv.vault.azure.net/');
+$host       = getenv('DB_HOST');
 $username   = getenv('DB_USERNAME');
 $password   = getenv('DB_PASSWORD');
 $db_name     = getenv('DB_DATABASE');
